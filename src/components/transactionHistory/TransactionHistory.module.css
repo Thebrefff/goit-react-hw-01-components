@@ -1,0 +1,19 @@
+.transHistory {
+  margin: 100px auto 0 auto;
+}
+
+.columnHeader:first-child {
+  border-radius: 0.5rem 0 0 0;
+}
+.columnHeader:last-child {
+  border-radius: 0 0.5rem 0 0;
+}
+.row:last-child .transData:first-child {
+  border-radius: 0 0 0 0.5rem;
+}
+.row:last-child .transData:last-child {
+  border-radius: 0 0 0.5rem 0;
+}
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}
