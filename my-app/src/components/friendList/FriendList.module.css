@@ -35,11 +35,11 @@
 }
 
 .online {
-  /* composes: status;   */
+  composes: status;  
   background-color: green;
 }
 
 .offline {
-  /* composes: status;   */
+  composes: status;  
   background-color: red;
 }
